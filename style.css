@@ -1,0 +1,320 @@
+/* The Nave bar css */
+.nav{
+    background-color: #333333;
+    display: flex;  
+    justify-content: space-between;
+    color: white;
+    height: 70px;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    margin-left: 100px;
+    display: flex;   
+}
+.li1{
+    
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.a1{
+    color: #888888;
+    text-decoration: none;
+}
+
+.active { color: white;    
+}
+
+.btn{
+    background-color: #17a2b8;
+    box-shadow: 3px 5px black;
+    color: white;
+    width: 80px;
+    height: 25px;
+    margin-right: 200px;
+}
+/* the main container css */
+.main {
+    position: relative;
+    width: 1410px;
+}
+
+/* the first container css*/
+.posc1{
+    position: absolute;
+
+}
+.userP{
+    height: 375px;
+    width: 670px;
+    background-color: #cccccc;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.cnt1{
+    height: 100px;  
+    background-color: #17a2b8;
+}
+.cnt2{
+    height: 270px;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.raw{
+    padding-left: 20px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border: #cccccc;
+    margin-left: 30px;
+}
+
+.img2{
+    width: 13px;
+    height: 22px;
+}
+.img3{
+    width: 12px;
+    height: 13px;
+}
+/*second container css*/
+.posc2{
+    position: absolute;
+    top: -50px;
+    right: 230px;
+   
+}
+.CRmain{
+    margin: 50px;
+    background-color: #d0d0d0;
+    width: 270px;
+    height: 190px ;
+}
+.hcr{
+    background-color: #333333;
+    width:  270px;
+    height: 50px;
+}
+.bcr{
+    background-color: white;
+    position: relative;
+    height: 140px;
+    width: 260px;
+    margin: 5px 0px 5px 5px;
+
+   
+   
+}
+.bcrimg{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+   
+   
+}
+.bcrimg2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 6px;
+    top: 15px;
+  
+   
+}
+.bcrimg3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+
+.fbrc{
+    margin-bottom: 10px;
+    height: 60px;
+    padding-top: 5px;
+   
+
+}
+.brctext{
+ padding-left: 2px;
+ margin-bottom: 5px;
+ position: absolute;
+    right: 120px;
+    top: 0px;
+
+
+}
+.bcrli{
+    display: inline-block;
+    list-style: none;
+    padding: 2px;
+   
+}
+
+.bcrul{
+margin-top: 0px;
+margin-left: 0px;
+padding: 0px;
+display: flex;
+
+}
+.bcrimg1{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    position: absolute;
+    right: 213px;
+    top: 70px;
+   
+}
+.bcrimg21{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 6px;
+    top: 70px;
+  
+}
+.bcrimg31{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+    top: 70px;
+}
+
+.text2{
+    color: #000;
+    position: absolute;
+    right: 140px;
+    top: 44px;
+}
+/*third contener css*/
+.Ec{
+    background-color:#d0d0d0 ;
+    width: 670px;
+    height: 200px;
+    margin-top: 20px;
+}
+#Ech{
+    width: 670px;
+    height: 60px;
+    background-color: #333333;
+
+    
+}
+h3{
+    color: #f2f2f2;
+    padding-top: 19px;
+    margin-left: 30px;
+}
+.Ecb{
+    width: 660px;
+    height: 160px;
+    background-color: white;
+    margin-left: 5px ;
+    margin-top: 5px;
+    font-size: medium;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.bluec{
+    color: #8d8d8d;
+}
+
+/*Last container css*/
+.lcpos{
+   position: absolute;
+    top: 240px;
+    right: 280px;
+}
+.lc{
+    width: 270px;
+    height: 300px;
+    background-color:#d0d0d0 ;
+}
+.lch{
+    background-color: #333333;
+    width:  270px;
+    height: 50px;
+}
+.lcb{
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 260px;
+    margin: 5px 0px 5px 5px;
+}
+.lcf{
+    background-color: white;
+    height: 35px;
+    width: 260px;
+    margin: 5px 0px 5px 5px;
+    padding: 5px;
+}
+.pfppic{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.par1{
+ 
+    padding-bottom: 3px;
+    padding-left: 5px;
+  
+}
+.par2{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.psn1{
+    position: absolute;
+    left: 10px ;
+    top: 5px;
+}
+.psn2{
+    position: absolute;
+    left: 10px ;
+    top: 55px;
+}
+.psn3{
+    position: absolute;
+    left: 10px ;
+    top: 110px;
+}
+.psn4{
+    position: absolute;
+    left: 10px ;
+    top: 160px;
+}
+.tal1{
+    position: absolute;
+    left: 80px ;
+    top: 3px;
+
+}
+.tal2{
+    position: absolute;
+    left: 80px ;
+    top: 47px;
+}
+.tal3{
+    position: absolute;
+    left: 80px ;
+    top: 103px;
+}
+.tal4{
+    position: absolute;
+    left: 80px ;
+    top: 160px;
+}
